@@ -64,7 +64,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 
 ### Useful resources
 
-- [SVG Creator](https://www.softr.io/tools/svg-shape-generator) - I created the blue half circle with this website.
+- [Public Sans Google Font](https://fonts.google.com/specimen/Public+Sans) - Design called for this font in the project.
 
 ## Author
 
