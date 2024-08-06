@@ -17,7 +17,7 @@ const Navigation = () => {
         <div>
           <img src={Logo} alt="Easybank logo" />
         </div>
-        <div className="flex flex-row space-x-2">
+        <div className="flex flex-row space-x-2 text-grayish-blue">
           <h1>Home</h1>
           <h1>About</h1>
           <h1>Contact</h1>
