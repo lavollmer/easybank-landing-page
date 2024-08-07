@@ -45,21 +45,21 @@ const SplashPage = () => {
       </div>
       <div className="flex flex-col md:hidden bg-very-light-gray font-public-sans">
         <div>
-          <div className="relative">
+          <div className="relative p-40">
             <div>
               <img
                 src={introMobile}
                 alt="intro desktop image"
-                className="absolute top-0 left-0 w-full h-full object-cover z-0"
+                className="absolute top-0 left-0 w-full h-1/2 object-cover z-0"
               />
               <img
                 src={imageMockups}
                 alt="intro desktop image"
-                className="absolute top-0 left-0 w-full h-full object-cover z-10"
+                className="absolute top-0 left-0 w-full object-cover z-10"
               />
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center p-14 space-y-6">
+          <div className="flex flex-col justify-center items-center p-14 space-y-6 mt-20">
             <h1 className="flex flex-col items-center justify-center text-center text-dark-blue text-3xl">
               Next generation of digital banking
             </h1>
