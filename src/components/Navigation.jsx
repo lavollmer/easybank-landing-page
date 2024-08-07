@@ -25,7 +25,7 @@ const Navigation = () => {
           <h1>Careers</h1>
         </div>
         <div>
-          <button className="bg-lime-green rounded-full">Request Invite</button>
+          <button className="bg-gradient-to-r to-blue-300 from-green-200 rounded-full text-white cursor-pointer p-2 px-6">Request Invite</button>
         </div>
       </div>
     </div>
