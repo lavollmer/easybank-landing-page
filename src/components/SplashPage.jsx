@@ -5,9 +5,9 @@ import imageMockups from "../assets/image-mockups.png";
 
 const SplashPage = () => {
   return (
-    <div className="bg-very-light-gray font-public-sans">
-      <div className="flex flex-row">
-        <div className="flex flex-col justify-center w-1/2 p-20 space-y-6">
+    <div className="bg-very-light-gray font-public-sans p-10">
+      <div className="flex flex-row relative p-20">
+        <div className="flex flex-col justify-center w-1/2 p-10 space-y-6">
           <div className="flex items-center text-left">
             <h1 className="text-dark-blue text-7xl">
               Next generation of digital banking
@@ -27,16 +27,16 @@ const SplashPage = () => {
           </div>
         </div>
         <div>
-          <div className="relative">
+          <div>
             <img
               src={introDesktop}
               alt="intro desktop image"
-              className="absolute z-0 h-80 w-80"
+              className="absolute z-0 h-100 w-100"
             />
             <img
               src={imageMockups}
               alt="intro desktop image"
-              className="absolute z-10 h-80 w-80"
+              className="absolute z-10 h-100 w-100"
             />
           </div>
         </div>
