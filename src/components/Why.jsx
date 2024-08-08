@@ -14,8 +14,8 @@ const Why = () => {
           hub. Control your finances like never before.
         </p>
       </div>
-      <div className="flex md:flex-row items-center justify-center">
-        <div className="flex flex-col md:flex-row items-center justify-center space-y-8 mt-10">
+      <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center space-y-8 mt-10">
           <div>
             <img src={iconOnline} alt="icon online" />
           </div>
@@ -27,39 +27,36 @@ const Why = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center space-y-8 mt-10">
           <div>
-            <img src={iconOnline} alt="icon online" />
+            <img src={iconBudgeting} alt="icon budgeting" />
           </div>
-          <div>
-            <h2 className="text-dark-blue text-lg font-bold">Online Banking</h2>
+          <div className="space-y-6">
+            <h2 className="text-dark-blue text-2xl">Simple Budgeting</h2>
             <p className="text-grayish-blue">
-              Our modern web and mobile applications allow you to keep track of
-              your finances wherever you are in the world.
+              See exactly where your money goes each month. Receive notifications when your'e close to your hitting limits.
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center space-y-8 mt-10">
           <div>
-            <img src={iconOnline} alt="icon online" />
+            <img src={iconOnboarding} alt="icon boarding" />
           </div>
-          <div>
-            <h2 className="text-dark-blue text-lg font-bold">Online Banking</h2>
+          <div className="space-y-6">
+            <h2 className="text-dark-blue text-2xl">Fast Onboarding</h2>
             <p className="text-grayish-blue">
-              Our modern web and mobile applications allow you to keep track of
-              your finances wherever you are in the world.
+              we don't do branches. Open your account in minutes online and start taking control of your finances right away.
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center space-y-8 mt-10">
           <div>
-            <img src={iconOnline} alt="icon online" />
+            <img src={iconApi} alt="icon API" />
           </div>
-          <div>
-            <h2 className="text-dark-blue text-lg font-bold">Online Banking</h2>
+          <div className="space-y-6">
+            <h2 className="text-dark-blue text-2xl">Open API</h2>
             <p className="text-grayish-blue">
-              Our modern web and mobile applications allow you to keep track of
-              your finances wherever you are in the world.
+              Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.
             </p>
           </div>
         </div>
