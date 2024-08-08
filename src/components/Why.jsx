@@ -14,12 +14,12 @@ const Why = () => {
           hub. Control your finances like never before.
         </p>
       </div>
-      <div className="flex flex-row">
+      <div className="flex">
         <div className="flex flex-col items-center justify-center">
           <div>
             <img src={iconOnline} alt="icon online" />
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div>
             <h2 className="text-dark-blue text-lg font-bold">Online Banking</h2>
             <p className="text-grayish-blue">
               Our modern web and mobile applications allow you to keep track of
