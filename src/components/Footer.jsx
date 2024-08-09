@@ -12,7 +12,7 @@ import LogoWhite from "../assets/easybanklogo.png";
 const Footer = () => {
   return (
     <>
-      <div className="hidden md:block flex flex-row bg-dark-blue font-public-sans text-white justify-between p-20">
+      <div className="hidden md:flex flex-row bg-dark-blue font-public-sans text-white justify-between p-20">
         <div className="flex flex-col space-y-10">
           <div>
             <img src={LogoWhite} alt="logo" />
