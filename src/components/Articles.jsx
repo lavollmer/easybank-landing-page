@@ -11,7 +11,7 @@ const Articles = () => {
       <div className="pb-14">
         <h1 className="text-dark-blue text-5xl">Latest Articles</h1>
       </div>
-      <div className="flex flex-row items-center space-x-6">
+      <div className="flex md:flex-row flex-col items-center md:space-x-6 space-y-4">
         <Card
           image={Money}
           imageDesc="money"
