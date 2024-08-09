@@ -76,7 +76,7 @@ const Why = () => {
             financial hub. Control your finances like never before.
           </p>
         </div>
-        <div className="flex flex-row items-center justify-center">
+        <div className="flex flex-row items-center justify-center space-x-14">
           <div className="flex flex-col justify-center space-y-8 mt-10">
             <div>
               <img src={iconOnline} alt="icon online" />
