@@ -10,10 +10,10 @@ const Card = ({ title, content, author, image, imageDesc }) => {
           className="h-full w-full object-cover"
         />
       </div>
-      <div className="p-4">
-        <p className="text-grayish-blue">{author}</p>
-        <h2 className="text-dark-blue text-xl font-semibold">{title}</h2>
-        <p className="text-grayish-blue mt-2">{content}</p>
+      <div className="p-8">
+        <p className="text-grayish-blue text-sm mb-2">{author}</p>
+        <h2 className="text-dark-blue text-lg font-semibold">{title}</h2>
+        <p className="text-grayish-blue mt-2 text-md">{content}</p>
       </div>
     </div>
   );
