@@ -23,7 +23,7 @@ const SplashPage = () => {
               </p>
             </div>
             <div>
-              <button className="bg-gradient-to-r to-blue-300 from-green-200 rounded-full text-white text-xl cursor-pointer p-2 py-4 px-8">
+              <button className="bg-gradient-to-r to-blue-400 from-green-400 hover:from-blue-400 hover:to-green-300 rounded-full text-white text-xl cursor-pointer p-2 py-4 px-8">
                 Request Invite
               </button>
             </div>
@@ -71,7 +71,7 @@ const SplashPage = () => {
               more.
             </p>
             <div>
-              <button className="bg-gradient-to-r to-blue-300 from-green-200 rounded-full text-white text-md cursor-pointer py-2 px-4">
+              <button className="bg-gradient-to-r to-blue-400 from-green-400 hover:from-blue-400 hover:to-green-300 rounded-full text-white text-md cursor-pointer py-2 px-4">
                 Request Invite
               </button>
             </div>

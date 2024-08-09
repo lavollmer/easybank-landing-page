@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="p-2 text-right space-y-4">
-          <button className="bg-gradient-to-r to-blue-300 from-green-200 rounded-full font-semibold text-white cursor-pointer p-2 px-6">
+          <button className="bg-gradient-to-r to-blue-400 from-green-400 hover:from-blue-400 hover:to-green-300 rounded-full font-semibold text-white cursor-pointer p-2 px-6">
             Request Invite
           </button>
           <p className="text-grayish-blue">
@@ -70,7 +70,7 @@ const Footer = () => {
           <p>Privacy Policy</p>
         </div>
         <div className="flex flex-col items-center justify-center space-y-4 mt-4">
-          <button className="bg-gradient-to-r to-blue-300 from-green-200 rounded-full font-semibold text-white cursor-pointer p-2 px-6">
+          <button className="bg-gradient-to-r to-blue-400 from-green-400 rounded-full font-semibold text-white cursor-pointer p-2 px-6 hover:from-blue-400 hover:to-green-300">
             Request Invite
           </button>
           <p className="text-grayish-blue text-sm">

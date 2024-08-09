@@ -17,7 +17,7 @@ const Navigation = () => {
         <div>
           <img src={Logo} alt="Easybank logo" />
         </div>
-        <div className="flex flex-row space-x-2 text-grayish-blue cursor-pointer">
+        <div className="flex flex-row space-x-6 text-grayish-blue cursor-pointer">
           <h1 className="hover:border-b-2 hover:border-lime-green">Home</h1>
           <h1 className="hover:border-b-2 hover:border-lime-green">About</h1>
           <h1 className="hover:border-b-2 hover:border-lime-green">Contact</h1>
@@ -25,7 +25,7 @@ const Navigation = () => {
           <h1 className="hover:border-b-2 hover:border-lime-green">Careers</h1>
         </div>
         <div>
-          <button className="bg-gradient-to-r to-blue-300 from-green-200 rounded-full text-white cursor-pointer p-2 px-6">Request Invite</button>
+          <button className="bg-gradient-to-r to-blue-400 from-green-400 rounded-full text-white cursor-pointer p-2 px-6 hover:from-blue-400 hover:to-green-300">Request Invite</button>
         </div>
       </div>
     </div>
