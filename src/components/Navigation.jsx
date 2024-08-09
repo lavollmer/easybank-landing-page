@@ -5,7 +5,7 @@ import Logo from "../assets/logo.svg";
 const Navigation = () => {
   return (
     <div className="font-public-sans">
-      <div className="md:hidden flex flex-row justify-between items-center p-6 bg-white">
+      <div className="md:hidden flex flex-row fixed top-0 z-20 w-full justify-between items-center p-6 bg-white">
         <div>
           <img src={Logo} alt="Easybank logo" />
         </div>
@@ -13,7 +13,7 @@ const Navigation = () => {
           <img src={Hamburger} alt="Hamburger menu" />
         </div>
       </div>
-      <div className="hidden md:flex flex-row justify-between items-center bg-white font-public-sans p-8">
+      <div className="hidden md:flex flex-row fixed top-0 z-20 w-full justify-between items-center bg-white font-public-sans p-8">
         <div>
           <img src={Logo} alt="Easybank logo" />
         </div>

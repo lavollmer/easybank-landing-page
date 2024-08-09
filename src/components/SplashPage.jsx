@@ -6,12 +6,12 @@ import imageMockups from "../assets/image-mockups.png";
 const SplashPage = () => {
   return (
     <>
-    {/* desktop version */}
-      <div className="hidden md:flex bg-very-light-gray font-public-sans p-10">
-        <div className="flex flex-row relative p-20">
-          <div className="flex flex-col justify-center w-1/2 p-10 space-y-6">
+      {/* desktop version */}
+      <div className="hidden md:flex bg-very-light-gray font-public-sans">
+        <div className="flex flex-row relative">
+          <div className="flex flex-col justify-center w-1/2 p-10 space-y-6 p-60">
             <div className="flex items-center text-left">
-              <h1 className="text-dark-blue text-7xl">
+              <h1 className="text-dark-blue text-6xl">
                 Next generation of digital banking
               </h1>
             </div>
@@ -28,19 +28,17 @@ const SplashPage = () => {
               </button>
             </div>
           </div>
-          <div>
-            <div>
-              <img
-                src={introDesktop}
-                alt="intro desktop image"
-                className="absolute z-0 h-98 w-98"
-              />
-              <img
-                src={imageMockups}
-                alt="intro desktop image"
-                className="absolute z-10 h-98 w-98"
-              />
-            </div>
+          <div className="relative w-1/2 h-full right-0 top-0 flex justify-end">
+            <img
+              src={introDesktop}
+              alt="intro desktop image"
+              className="absolute z-10 h-full w-full object-cover"
+            />
+            <img
+              src={imageMockups}
+              alt="intro desktop image"
+              className="absolute z-10 h-full w-full object-cover"
+            />
           </div>
         </div>
       </div>
