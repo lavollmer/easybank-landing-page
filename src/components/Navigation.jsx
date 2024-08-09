@@ -3,6 +3,7 @@ import { useState } from "react";
 import Hamburger from "../assets/icon-hamburger.svg";
 import Logo from "../assets/logo.svg";
 import SideNavBar from "./SideNavBar";
+import CloseIcon from "../assets/icon-close.svg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +11,10 @@ const Navigation = () => {
   const handleOnClick = () => {
     setIsOpen(!isOpen);
   };
+
+  const closeSideNavBar = () => {
+    setIsOpen(false);
+  };  
 
   return (
     <div className="font-public-sans">
@@ -19,8 +24,8 @@ const Navigation = () => {
         </div>
         {/* hamburger button click */}
         <div>
-          <button>
-            <img src={Hamburger} alt="Hamburger menu" onClick={handleOnClick} />
+          <button onClick={handleOnClick}>
+            <img src={isOpen ? CloseIcon : Hamburger} alt="menu icon"  />
           </button>
         </div>
       </div>
