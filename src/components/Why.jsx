@@ -7,6 +7,7 @@ import iconOnline from "../assets/icon-online.svg";
 const Why = () => {
   return (
     <>
+      {/* Mobile section */}
       <div className="md:hidden flex flex-col items-center text-center font-public-sans bg-light-grayish-blue p-10">
         <div>
           <h1 className="text-dark-blue text-3xl mb-4">Why choose Easybank?</h1>
@@ -67,7 +68,7 @@ const Why = () => {
         </div>
       </div>
       {/* desktop view and screen */}
-      <div className="flex flex-col items-center font-public-sans bg-light-grayish-blue p-10">
+      <div className="hidden md:block flex flex-col items-center font-public-sans bg-light-grayish-blue p-10">
         <div>
           <h1 className="text-dark-blue text-3xl mb-4">Why choose Easybank?</h1>
           <p className="text-grayish-blue">
