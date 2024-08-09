@@ -7,11 +7,11 @@ import Card from "./Card.jsx";
 
 const Articles = () => {
   return (
-    <div className="bg-very-light-gray text-public-sans">
+    <div className="bg-very-light-gray text-public-sans p-10">
       <div>
         <h1 className="text-dark-blue text-5xl p-20">Latest Articles</h1>
       </div>
-      <div className="card-articles">
+      <div className="flex flex-row items-center space-x-6">
         <Card
           image={Money}
           imageDesc="money"
