@@ -23,12 +23,8 @@ const Navigation = () => {
             <img src={Hamburger} alt="Hamburger menu" onClick={handleOnClick} />
           </button>
         </div>
-        {isOpen && (
-          <div>
-            <SideNavBar />
-          </div>
-        )}
       </div>
+      <div className="flex flex-col">{isOpen && <SideNavBar />}</div>
       <div className="hidden md:flex flex-row fixed top-0 z-20 w-full justify-between items-center bg-white font-public-sans p-8">
         <div>
           <img src={Logo} alt="Easybank logo" />
