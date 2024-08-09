@@ -6,6 +6,7 @@ import imageMockups from "../assets/image-mockups.png";
 const SplashPage = () => {
   return (
     <>
+    {/* desktop version */}
       <div className="hidden md:flex bg-very-light-gray font-public-sans p-10">
         <div className="flex flex-row relative p-20">
           <div className="flex flex-col justify-center w-1/2 p-10 space-y-6">
@@ -32,17 +33,18 @@ const SplashPage = () => {
               <img
                 src={introDesktop}
                 alt="intro desktop image"
-                className="absolute z-0 h-100 w-100"
+                className="absolute z-0 h-98 w-98"
               />
               <img
                 src={imageMockups}
                 alt="intro desktop image"
-                className="absolute z-10 h-100 w-100"
+                className="absolute z-10 h-98 w-98"
               />
             </div>
           </div>
         </div>
       </div>
+      {/* mobile version */}
       <div className="flex flex-col md:hidden bg-very-light-gray font-public-sans">
         <div>
           <div className="relative p-40">

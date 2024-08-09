@@ -68,9 +68,9 @@ const Why = () => {
         </div>
       </div>
       {/* desktop view and screen */}
-      <div className="hidden md:block flex flex-col items-center font-public-sans bg-light-grayish-blue p-10">
+      <div className="hidden md:block flex flex-col items-center font-public-sans bg-light-grayish-blue p-40">
         <div>
-          <h1 className="text-dark-blue text-3xl mb-4">Why choose Easybank?</h1>
+          <h1 className="text-dark-blue text-4xl mb-4">Why choose Easybank?</h1>
           <p className="text-grayish-blue">
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
