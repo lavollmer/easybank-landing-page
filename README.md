@@ -31,7 +31,23 @@ Users should be able to:
 
 Desktop Version:
 
-![Desktop Landing Page](./src/assets/DesktopLandingPage.png)
+![Desktop Landing Page](./src/assets/MainPageDesktop.png)
+
+![Desktop Why Easybank Section](./src/assets/WhyEasybankDesktop.png)
+
+![Desktop Articles Section](./src/assets/ArticlesDesktop.png)
+
+![Desktop Footer](./src/assets/FooterDesktop.png)
+
+Mobile Version:
+
+![Mobile Landing Page](./src/assets/MobileLandingPage.png)
+
+![Mobile Why Easybank Section](./src/assets/EasybankWhyMobile.png)
+
+![Mobile Articles Section](./src/assets/ArticlesMobile.png)
+
+![Mobile Footer](./src/assets/FooterMobile.png)
 
 
 ### Links
