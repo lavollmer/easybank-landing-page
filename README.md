@@ -51,7 +51,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Easybank Landing Page Laura Dev](https://easybank-project-lauradev.netlify.app/)
-- Solution URL: [Frontend Mentor Solution]()
+- Solution URL: [Frontend Mentor Solution Laura Dev](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN/hub)
 
 ### My Process
 
