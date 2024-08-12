@@ -1,6 +1,6 @@
 # Easybank Landing Page
 
-This project entailed creating the Easybank landing page with both mobile and web responsive designs. Key features include 
+This project involved developing the Easybank landing page with a focus on both mobile and web responsiveness. Key features include a navigation bar, a side navigation bar for mobile, a responsive design, a TailwindCSS layout, a footer, interactive hover states and much more.
 
 
 ## Table of contents
@@ -18,7 +18,7 @@ This project entailed creating the Easybank landing page with both mobile and we
 
 ## Overview
 
-This project involved replicating a design layout given for desktop and mobile for a Bookmark Landing Page with special features.
+This project involved replicating a design layout given for desktop and mobile for a Easybank Landing Page with special features.
 
 ### The challenge
 
@@ -52,8 +52,8 @@ Mobile Version:
 
 ### Links
 
+- Live Site URL: [Easybank Landing Page Laura Dev](https://easybank-project-lauradev.netlify.app/)
 - Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Easybank Landing Page Laura Dev]()
 
 ### My Process
 
