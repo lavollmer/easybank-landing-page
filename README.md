@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshots
 
-Desktop Version:
+<p style="font-size:20px;">Desktop Version:</p>
 
 ![Desktop Landing Page](./src/assets/MainPageDesktop.png)
 
@@ -38,7 +38,7 @@ Desktop Version:
 
 ![Desktop Footer](./src/assets/FooterDesktop.png)
 
-Mobile Version:
+<p style="font-size:20px;">Mobile Version:</p>
 
 ![Mobile Landing Page](./src/assets/MobileLandingPage.png)
 
@@ -80,13 +80,13 @@ Overall, this project continued to work on my design understanding, flexbox know
 
 There are several things I learned throughout this project:
 
-1. **_ Gradient Colors _** - I learned how to add gradient colors to all my buttons. This involved adding a TailwindCSS class with a call of background gradient starting from the right with blue to green. This process was called using background gradients based on a color stop.
-2. **_ Card Component _** - I was able to make a card component to be used in the articles section multiple times. I created a card component separately that accepted props for dynamic content. I was able to pass through title, content, image and author. Through this I could iterate over the component multiple times in order to get the desired effect and content. I worked on stretching the image on the card component the full width and length of the top of the component.
-3. **_ Flexbox Design _** - I continued to learn more about flexbox and reinforce my understanding of flexbox. I was more challenged on the splash page image with flexbox as it was more challenging to find the right image size.
+1. **Gradient Colors** - I learned how to add gradient colors to all my buttons. This involved adding a TailwindCSS class with a call of background gradient starting from the right with blue to green. This process was called using background gradients based on a color stop. Additionally, I added a hover state with a gradient for all buttons.
+2. **Card Component** - I was able to make a card component to be used in the articles section multiple times. I created a card component separately that accepted props for dynamic content. I was able to pass through title, content, image and author. Through this I could iterate over the component multiple times in order to get the desired effect and content. I worked on stretching the image on the card component the full width and length of the top of the component.
+3. **Flexbox Design** - I continued to learn more about flexbox and reinforce my understanding of flexbox. I was more challenged on the splash page image with flexbox as it was more challenging to find the right image size and overlay.
 
 ### Continued development
 
-I will continue to learn more about TailwindCSS, ReactJS and updating my process of building a website. I want to specifically work on learning more TailwindCSS design properties for my toolbox.
+I will continue to learn more about TailwindCSS, ReactJS and updating my process of building a website. I want to specifically work on learning more TailwindCSS design properties to add to my coding toolbox.
 
 ### Useful resources
 
@@ -96,5 +96,5 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 ## Author
 
 - Website - [Laura V](www.lauradeveloper.com)
-- Frontend Mentor - [@lavollmer](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@lavollmer](https://www.frontendmentor.io/profile/lavollmer)
 - Github - [@lavollmer](https://github.com/lavollmer)
